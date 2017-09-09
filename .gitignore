@@ -65,3 +65,5 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
+DICT_S-R.plist
+DICT_R-S.plist

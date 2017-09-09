@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E58FE76A1F64570E00A7A924 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58FE7541F64570E00A7A924 /* AppDelegate.swift */; };
+		E58FE76B1F64570E00A7A924 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E58FE7551F64570E00A7A924 /* LaunchScreen.storyboard */; };
+		E58FE76C1F64570E00A7A924 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E58FE7571F64570E00A7A924 /* Main.storyboard */; };
+		E58FE76D1F64570E00A7A924 /* DictionaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58FE75A1F64570E00A7A924 /* DictionaryCell.swift */; };
+		E58FE76E1F64570E00A7A924 /* InfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58FE75B1F64570E00A7A924 /* InfoCell.swift */; };
+		E58FE7701F64570E00A7A924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E58FE75E1F64570E00A7A924 /* Assets.xcassets */; };
+		E58FE7711F64570E00A7A924 /* DICT_R-S.plist in Resources */ = {isa = PBXBuildFile; fileRef = E58FE75F1F64570E00A7A924 /* DICT_R-S.plist */; };
+		E58FE7721F64570E00A7A924 /* DICT_S-R.plist in Resources */ = {isa = PBXBuildFile; fileRef = E58FE7601F64570E00A7A924 /* DICT_S-R.plist */; };
+		E58FE7731F64570E00A7A924 /* russianAlphabet.plist in Resources */ = {isa = PBXBuildFile; fileRef = E58FE7611F64570E00A7A924 /* russianAlphabet.plist */; };
+		E58FE7741F64570E00A7A924 /* serbianAlphabet.plist in Resources */ = {isa = PBXBuildFile; fileRef = E58FE7621F64570E00A7A924 /* serbianAlphabet.plist */; };
+		E58FE7751F64570E00A7A924 /* AttributedStringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58FE7641F64570E00A7A924 /* AttributedStringUtils.swift */; };
+		E58FE7761F64570E00A7A924 /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58FE7651F64570E00A7A924 /* ColorUtils.swift */; };
+		E58FE7771F64570E00A7A924 /* PlistReaderUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58FE7661F64570E00A7A924 /* PlistReaderUtils.swift */; };
+		E58FE7781F64570E00A7A924 /* DictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58FE7681F64570E00A7A924 /* DictionaryViewController.swift */; };
+		E58FE7791F64570E00A7A924 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58FE7691F64570E00A7A924 /* MainViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E52DC0F21EE7313F0074958D /* BalkaniaiPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BalkaniaiPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E58FE7541F64570E00A7A924 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E58FE7561F64570E00A7A924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E58FE7581F64570E00A7A924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E58FE75A1F64570E00A7A924 /* DictionaryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryCell.swift; sourceTree = "<group>"; };
+		E58FE75B1F64570E00A7A924 /* InfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoCell.swift; sourceTree = "<group>"; };
+		E58FE75C1F64570E00A7A924 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E58FE75E1F64570E00A7A924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E58FE75F1F64570E00A7A924 /* DICT_R-S.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DICT_R-S.plist"; sourceTree = "<group>"; };
+		E58FE7601F64570E00A7A924 /* DICT_S-R.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DICT_S-R.plist"; sourceTree = "<group>"; };
+		E58FE7611F64570E00A7A924 /* russianAlphabet.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = russianAlphabet.plist; sourceTree = "<group>"; };
+		E58FE7621F64570E00A7A924 /* serbianAlphabet.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = serbianAlphabet.plist; sourceTree = "<group>"; };
+		E58FE7641F64570E00A7A924 /* AttributedStringUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributedStringUtils.swift; sourceTree = "<group>"; };
+		E58FE7651F64570E00A7A924 /* ColorUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorUtils.swift; sourceTree = "<group>"; };
+		E58FE7661F64570E00A7A924 /* PlistReaderUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistReaderUtils.swift; sourceTree = "<group>"; };
+		E58FE7681F64570E00A7A924 /* DictionaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryViewController.swift; sourceTree = "<group>"; };
+		E58FE7691F64570E00A7A924 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E52DC0EF1EE7313F0074958D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E52DC0E91EE7313F0074958D = {
+			isa = PBXGroup;
+			children = (
+				E58FE7531F64570E00A7A924 /* BalkaniaiPad */,
+				E52DC0F31EE7313F0074958D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E52DC0F31EE7313F0074958D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E52DC0F21EE7313F0074958D /* BalkaniaiPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E58FE7531F64570E00A7A924 /* BalkaniaiPad */ = {
+			isa = PBXGroup;
+			children = (
+				E58FE7541F64570E00A7A924 /* AppDelegate.swift */,
+				E58FE7551F64570E00A7A924 /* LaunchScreen.storyboard */,
+				E58FE7571F64570E00A7A924 /* Main.storyboard */,
+				E58FE7591F64570E00A7A924 /* Cells */,
+				E58FE75C1F64570E00A7A924 /* Info.plist */,
+				E58FE75D1F64570E00A7A924 /* Resources */,
+				E58FE7631F64570E00A7A924 /* Utils */,
+				E58FE7671F64570E00A7A924 /* ViewControllers */,
+			);
+			path = BalkaniaiPad;
+			sourceTree = "<group>";
+		};
+		E58FE7591F64570E00A7A924 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E58FE75A1F64570E00A7A924 /* DictionaryCell.swift */,
+				E58FE75B1F64570E00A7A924 /* InfoCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E58FE75D1F64570E00A7A924 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E58FE75E1F64570E00A7A924 /* Assets.xcassets */,
+				E58FE75F1F64570E00A7A924 /* DICT_R-S.plist */,
+				E58FE7601F64570E00A7A924 /* DICT_S-R.plist */,
+				E58FE7611F64570E00A7A924 /* russianAlphabet.plist */,
+				E58FE7621F64570E00A7A924 /* serbianAlphabet.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E58FE7631F64570E00A7A924 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E58FE7641F64570E00A7A924 /* AttributedStringUtils.swift */,
+				E58FE7651F64570E00A7A924 /* ColorUtils.swift */,
+				E58FE7661F64570E00A7A924 /* PlistReaderUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E58FE7671F64570E00A7A924 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E58FE7681F64570E00A7A924 /* DictionaryViewController.swift */,
+				E58FE7691F64570E00A7A924 /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E52DC0F11EE7313F0074958D /* BalkaniaiPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E52DC1041EE7313F0074958D /* Build configuration list for PBXNativeTarget "BalkaniaiPad" */;
+			buildPhases = (
+				E52DC0EE1EE7313F0074958D /* Sources */,
+				E52DC0EF1EE7313F0074958D /* Frameworks */,
+				E52DC0F01EE7313F0074958D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BalkaniaiPad;
+			productName = BalkaniaiPad10;
+			productReference = E52DC0F21EE7313F0074958D /* BalkaniaiPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E52DC0EA1EE7313F0074958D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Alex Golub";
+				TargetAttributes = {
+					E52DC0F11EE7313F0074958D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 96837XF4KD;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E52DC0ED1EE7313F0074958D /* Build configuration list for PBXProject "BalkaniaiPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E52DC0E91EE7313F0074958D;
+			productRefGroup = E52DC0F31EE7313F0074958D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E52DC0F11EE7313F0074958D /* BalkaniaiPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E52DC0F01EE7313F0074958D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58FE7731F64570E00A7A924 /* russianAlphabet.plist in Resources */,
+				E58FE7711F64570E00A7A924 /* DICT_R-S.plist in Resources */,
+				E58FE76B1F64570E00A7A924 /* LaunchScreen.storyboard in Resources */,
+				E58FE76C1F64570E00A7A924 /* Main.storyboard in Resources */,
+				E58FE7741F64570E00A7A924 /* serbianAlphabet.plist in Resources */,
+				E58FE7721F64570E00A7A924 /* DICT_S-R.plist in Resources */,
+				E58FE7701F64570E00A7A924 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E52DC0EE1EE7313F0074958D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58FE76A1F64570E00A7A924 /* AppDelegate.swift in Sources */,
+				E58FE7761F64570E00A7A924 /* ColorUtils.swift in Sources */,
+				E58FE76D1F64570E00A7A924 /* DictionaryCell.swift in Sources */,
+				E58FE7771F64570E00A7A924 /* PlistReaderUtils.swift in Sources */,
+				E58FE7751F64570E00A7A924 /* AttributedStringUtils.swift in Sources */,
+				E58FE7781F64570E00A7A924 /* DictionaryViewController.swift in Sources */,
+				E58FE76E1F64570E00A7A924 /* InfoCell.swift in Sources */,
+				E58FE7791F64570E00A7A924 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E58FE7551F64570E00A7A924 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E58FE7561F64570E00A7A924 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E58FE7571F64570E00A7A924 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E58FE7581F64570E00A7A924 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E52DC1021EE7313F0074958D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E52DC1031EE7313F0074958D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E52DC1051EE7313F0074958D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 96837XF4KD;
+				INFOPLIST_FILE = BalkaniaiPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ua.org.balkania;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E52DC1061EE7313F0074958D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 96837XF4KD;
+				INFOPLIST_FILE = BalkaniaiPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ua.org.balkania;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E52DC0ED1EE7313F0074958D /* Build configuration list for PBXProject "BalkaniaiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52DC1021EE7313F0074958D /* Debug */,
+				E52DC1031EE7313F0074958D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E52DC1041EE7313F0074958D /* Build configuration list for PBXNativeTarget "BalkaniaiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52DC1051EE7313F0074958D /* Debug */,
+				E52DC1061EE7313F0074958D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E52DC0EA1EE7313F0074958D /* Project object */;
+}
