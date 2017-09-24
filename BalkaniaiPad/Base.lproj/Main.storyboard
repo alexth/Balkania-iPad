@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="BalkaniaiPad10" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="BalkaniaiPad" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -74,7 +74,7 @@
         <!--Dictionary View Controller-->
         <scene sceneID="HvR-6p-vKL">
             <objects>
-                <viewController id="v2U-mE-vIi" customClass="DictionaryViewController" customModule="BalkaniaiPad10" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="v2U-mE-vIi" customClass="DictionaryViewController" customModule="BalkaniaiPad" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3yI-Wt-osb"/>
                         <viewControllerLayoutGuide type="bottom" id="mUS-uK-Y5x"/>
@@ -84,9 +84,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <searchBar contentMode="redraw" showsCancelButton="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vta-DV-3Y3">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="56"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="w3B-Fy-lRE"/>
+                                    <constraint firstAttribute="height" constant="56" id="w3B-Fy-lRE"/>
                                 </constraints>
                                 <color key="tintColor" red="0.80392156859999997" green="0.58823529409999997" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="barTintColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -96,14 +96,14 @@
                                 </connections>
                             </searchBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="y91-Ux-iLc">
-                                <rect key="frame" x="0.0" y="44" width="768" height="458"/>
+                                <rect key="frame" x="0.0" y="56" width="768" height="446"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="dictionaryCell" rowHeight="50" id="3gv-q4-Qpz" customClass="DictionaryCell" customModule="BalkaniaiPad10" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="56" width="768" height="50"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="dictionaryCell" rowHeight="50" id="3gv-q4-Qpz" customClass="DictionaryCell" customModule="BalkaniaiPad" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="55.5" width="768" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3gv-q4-Qpz" id="wQY-xe-gll">
-                                            <rect key="frame" x="0.0" y="0.0" width="768" height="49"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="768" height="49.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3SL-FZ-3IY">
@@ -181,7 +181,7 @@
         <!--Dictionary View Controller-->
         <scene sceneID="gSF-vK-xRH">
             <objects>
-                <viewController id="0ir-0a-PHi" customClass="DictionaryViewController" customModule="BalkaniaiPad10" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="0ir-0a-PHi" customClass="DictionaryViewController" customModule="BalkaniaiPad" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="a6R-ip-T1O"/>
                         <viewControllerLayoutGuide type="bottom" id="54o-uH-Pom"/>
@@ -191,14 +191,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="nf0-qd-Gjx">
-                                <rect key="frame" x="0.0" y="44" width="768" height="458"/>
+                                <rect key="frame" x="0.0" y="56" width="768" height="446"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="dictionaryCell" rowHeight="50" id="iJy-9c-aHI" customClass="DictionaryCell" customModule="BalkaniaiPad10" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="56" width="768" height="50"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="dictionaryCell" rowHeight="50" id="iJy-9c-aHI" customClass="DictionaryCell" customModule="BalkaniaiPad" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="55.5" width="768" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="iJy-9c-aHI" id="Ke6-EQ-YdH">
-                                            <rect key="frame" x="0.0" y="0.0" width="768" height="49"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="768" height="49.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uk2-RM-HPi">
@@ -253,7 +253,7 @@
                                 </connections>
                             </tableView>
                             <searchBar contentMode="redraw" showsCancelButton="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Trd-vJ-CrE">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="56"/>
                                 <color key="tintColor" red="0.80392156859999997" green="0.58823529409999997" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="barTintColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <textInputTraits key="textInputTraits"/>
